@@ -87,7 +87,7 @@ class WakaInput:
         self.gh_token: str = os.getenv('INPUT_GH_TOKEN')
         self.waka_key: str = os.getenv('INPUT_WAKATIME_API_KEY')
         self.api_base_url: str = os.getenv(
-            'INPUT_API_BASE_URL', 'https://wakatime.com/api'
+            'INPUT_API_BASE_URL', 'https://www.steffenstein.com/wakatime'
         )
         self.repository: str = os.getenv('INPUT_REPOSITORY')
         # # depends
